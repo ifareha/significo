@@ -13,9 +13,19 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
 </head>
 <body theme ="cyan">
-<div class="main font-['Satoshi_Variable']">
+<div class="main w-full overflow-x-hidden">
     <div data-color="black" class="page-1 section w-full min-h-screen relative overflow-hidden">
-        <div class="page-1-bottom absolute bottom-[5%] left-[2%] w-44 z-20">
+        <div class="nav flex items-center justify-between z-[88] w-full py-5 px-5 absolute ">
+            <div class="text-5xl font-[syne] font-semibold tracking-tight max-sm:text-4xl">Significo</div>
+            <div class="flex items-center justify-between w-[30rem] max-sm:hidden">
+                <h4>Solutions</h4>
+                <h4>About</h4>
+                <h4>Insights</h4>
+                <h4>Team</h4>
+                <button class="bg-yellow-200 py-2 px-5 rounded-lg text-black">Contact Us</button>
+            </div>
+        </div>
+        <div class="page-1-bottom absolute bottom-[5%] max-sm:bottom-[15%] left-[2%] w-44 z-20">
             <h2 class="text-sm text-center leading-normal font-semibold">We build big ideas.
                 Software. Apps. Tools.
                 For real people. Real lives.</h2>
@@ -23,8 +33,8 @@
         <div style="--clip: 100%" class="videocontainer absolute w-full h-screen z-10">
             <video autoplay muted loop src="https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/bBj1XfrSyi/1ENIoa5sjq" class="w-full h-full object-cover"></video>
         </div>
-        <div class="textContainer scale-[1] w-full h-screen flex flex-col items-center justify-center overflow-hidden font-['Pp_Neue_Machina_Inktrap_Medium'] relative mt-8">
-            <div class="headingText absolute top-[10%] font-['Satoshi_Variable'] text-3xl text-center font-semilight leading-normal">
+        <div class="textContainer scale-[1] w-full h-screen flex flex-col items-center justify-center overflow-hidden relative mt-8">
+            <div class="headingText absolute top-[10%] text-3xl max-sm:text-xl text-center font-semilight leading-normal">
                 <h2>Crafting a new paradigm of
                     <br>healthcare, one that is</h2>
             </div>
@@ -176,22 +186,22 @@
 </div>
         </div>
     </div>
-    <div data-color="cyan" class="page-2 section w-full min-h-screen py-40 px-10 relative flex items-start justify-between gap-5">
-        <div class="left w-[80vh] sticky top-14 left-0">
-            <p class="text-xl leading-normal">Significo is a leading health software creator founded on the belief
+    <div data-color="cyan" class="page-2 section w-full min-h-screen py-40 max-sm:py-10 px-10 max-sm:px-5 relative max-sm:flex-col flex items-start justify-between gap-5">
+        <div class="left w-[80vh] max-sm:w-full sticky top-14 left-0">
+            <p class="text-md leading-normal">Significo is a leading health software creator founded on the belief
                 that technology can transform healthcare to put people first.
                 Whether they are employees, members, customers, or clients, we
                 never forget the real people we’re designing for.</p>
-                <h1 class="text-7xl font-['Pp_Neue_Machina_Plain_Light'] leading-tight mt-10">We Craft
+                <h1 class="text-7xl leading-tight mt-10 max-sm:text-2xl max-sm:mt-2">We Craft
                     Human-Centric
                     Health Software</h1>
-                    <div class="btn w-fit px-8 py-4 flex items-center gap-5 border-[1px] border-[--dcyan] mt-10">
+                    <div class="btn w-fit px-8 py-4 flex items-center gap-5 border-[1px] border-[--dcyan] mt-10 max-sm:mt-5">
                         <h2 class="text-base uppercase font-semibold">our solution</h2>
                         <i class="ri-arrow-right-up-line text-xl"></i>
                     </div>
         </div>
-        <div class="right flex flex-col gap-8 items-center w-[60%] pt-[40vw]">
-<div class="child w-[30vw] border-[1px] border-[--dcyan] py-8 px-8 flex items-center justify-between gap-[3vw] transition-all duration-500">
+        <div class="right flex flex-col gap-8 items-center w-[60%] max-sm:w-full max-sm:pt-10 pt-[40vw]">
+<div class="child w-[30vw] max-sm:w-full border-[1px] border-[--dcyan] py-8 px-8 flex items-center justify-between gap-[3vw] transition-all duration-500">
     <div class="child-part-1">
         <h1 class="text-xl font-semibold mb-3">Driven by Purpose</h1>
         <p class="text-sm w-64 leading-normal">We believe technology can dramatically
@@ -208,7 +218,7 @@
             </svg>
     </div>
 </div>
-<div class="child w-[30vw] border-[1px] border-[--dcyan] py-8 px-8 flex items-center justify-between gap-[3vw] transition-all duration-500">
+<div class="child w-[30vw] max-sm:w-full border-[1px] border-[--dcyan] py-8 px-8 flex items-center justify-between gap-[3vw] transition-all duration-500">
     <div class="child-part-1">
         <h1 class="text-xl font-semibold mb-3">Custom Products</h1>
         <p class="text-sm w-64 leading-normal">We see a need and we develop a solution.
@@ -229,7 +239,7 @@
             </svg>
     </div>
 </div>
-<div class="child w-[30vw] border-[1px] border-[--dcyan] py-8 px-8 flex items-center justify-between gap-[3vw] transition-all duration-500">
+<div class="child w-[30vw] max-sm:w-full border-[1px] border-[--dcyan] py-8 px-8 flex items-center justify-between gap-[3vw] transition-all duration-500">
     <div class="child-part-1">
         <h1 class="text-xl font-semibold mb-3">Partnerships</h1>
         <p class="text-sm w-64 leading-normal">We partner with like-minded benefits
@@ -248,7 +258,7 @@
             </svg>
     </div>
 </div>
-<div class="child w-[30vw] border-[1px] border-[--dcyan] py-8 px-8 flex items-center justify-between gap-[3vw] transition-all duration-500">
+<div class="child w-[30vw] max-sm:w-full border-[1px] border-[--dcyan] py-8 px-8 flex items-center justify-between gap-[3vw] transition-all duration-500">
     <div class="child-part-1">
         <h1 class="text-xl font-semibold mb-3">Security & Compliance</h1>
         <p class="text-sm w-64 leading-normal">Not just technology experts. Health experts.
@@ -266,14 +276,14 @@
 </div>
         </div>
     </div>
-    <div data-color="salmon" class="page-3 section w-full overflow-hidden">
+    <div data-color="salmon" class="page-3 section w-full overflow-hidde">
 <div class="container w-full flex">
                  <div class="silde w-full h-[100vh] shrink-0 flex items-center justify-center flex-col relative">
         <div class="center">
-            <h1 class="font-['Pp_Neue_Machina_Plain_Light'] text-[6.5vw] leading-tight">Real Talk,</h1>
-        <h1 class="font-['Pp_Neue_Machina_Plain_Light'] text-[6.5vw] leading-tight">Real Impact</h1>
+            <h1 class="text-[6.5vw] leading-tight max-sm:text-[10vw]">Real Talk,</h1>
+        <h1 class="text-[6.5vw] leading-tight max-sm:text-[10vw]">Real Impact</h1>
         </div>
-        <div class="imgdiv  overflow-hidden absolute w-[19vw] h-[19vw] rounded-full right-0 translate-x-[50%]">
+        <div class="imgdiv  overflow-hidden absolute w-[19vw] h-[19vw] rounded-full right-0 max-sm:right-[10%] max-sm:top-[20%] max-sm:h-[35vw] max-sm:w-[35vw] translate-x-[50%]">
             <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9ed8426a9be08870acb09_1.jpg" alt="">
         </div>
         <div class="btn w-fit px-8 py-4 flex items-center gap-5 border-[1px] border-[--dcyan] absolute left-[3%] bottom-[5%] bg-[#F5F19C]">
@@ -282,10 +292,10 @@
         </div>
                 </div>
                 <div class="silde w-full h-[100vh] shrink-0 flex flex-col justify-center items-center relative">
-                        <h1 class="font-['Pp_Neue_Machina_Inktrap_Medium'] text-[9.5vw] leading-[1] text-[--white]">20.4M</h1>
-                        <h2 class="font-['Pp_Neue_Machina_Inktrap_Medium'] text-[2.8vw] leading-tight">Real people — real lives — we have</h2>
-                        <h2 class="font-['Pp_Neue_Machina_Inktrap_Medium'] text-[2.8vw] leading-tight">built products and solutions for.</h2>
-                        <p class="text-lg font-semibold font-['Satoshi_Variable'] w-[20vw] absolute left-[20%] top-[24.5%]">We’re on a mission to impact as many lives as possible and build a better company while we do it. Here’s our progress.</p>
+                        <h1 class="text-[9.5vw] leading-[1] text-[--white]">20.4M</h1>
+                        <h2 class="text-[2.8vw] leading-tight">Real people — real lives — we have</h2>
+                        <h2 class="text-[2.8vw] leading-tight">built products and solutions for.</h2>
+                        <p class="text-lg font-semibold w-[20vw] max-sm:w-[70vw] max-sm:text-sm absolute left-[20%] top-[24.5%]">We’re on a mission to impact as many lives as possible and build a better company while we do it. Here’s our progress.</p>
                         <div class="imgdiv  overflow-hidden absolute w-[19vw] h-[19vw] rounded-full right-0 translate-x-[50%]">
                             <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9ee2e5e80fe8ace7a1ff3_5.jpg" alt="">
                         </div>
@@ -300,9 +310,9 @@
                         </div>
                 </div>
                 <div class="silde w-full h-[100vh] shrink-0 flex flex-col justify-center items-center relative">
-                        <h1 class="font-['Pp_Neue_Machina_Inktrap_Medium'] text-[9.5vw] leading-[1] text-[--white]">49%</h1>
-                        <h2 class="font-['Pp_Neue_Machina_Inktrap_Medium'] text-[2.8vw] leading-tight">Expert Women in Tech.</h2>
-                        <p class="text-lg font-semibold font-['Satoshi_Variable'] w-[20vw] absolute left-[20%] top-[24.5%]">Our team is global and diverse, because our individual experiences make us stronger.</p>
+                        <h1 class="text-[9.5vw] leading-[1] text-[--white]">49%</h1>
+                        <h2 class="text-[2.8vw] leading-tight">Expert Women in Tech.</h2>
+                        <p class="text-lg font-semibold w-[20vw] absolute left-[20%] top-[24.5%]">Our team is global and diverse, because our individual experiences make us stronger.</p>
                         <div class="imgdiv  overflow-hidden absolute w-[19vw] h-[19vw] rounded-full right-0 translate-x-[30%]">
                             <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65ea1ba6eb9637155282b42f_Lightning.png" alt="">
                         </div>
@@ -314,8 +324,8 @@
                         </div>
                 </div>
                 <div class="silde w-full h-[100vh] shrink-0 flex flex-col justify-center items-center relative">
-                        <h1 class="font-['Pp_Neue_Machina_Inktrap_Medium'] text-[9.5vw] leading-[1] text-[--white]">13</h1>
-                        <h2 class="font-['Pp_Neue_Machina_Inktrap_Medium'] text-[2.8vw] leading-tight text-center">Nationalities Represented on Our <br> Team.</h2>
+                        <h1 class="text-[9.5vw] leading-[1] text-[--white]">13</h1>
+                        <h2 class="text-[2.8vw] leading-tight text-center">Nationalities Represented on Our <br> Team.</h2>
                         <div class="imgdiv  overflow-hidden absolute w-[23vw] h-[23vw] rounded-full right-0 top-[0] translate-y-[-10%] translate-x-[40%]">
                             <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9efa87b272d53118849fa_9.jpg" alt="">
                         </div>
@@ -333,8 +343,8 @@
     </div>
     <div data-color="light" class="page-4 section w-full py-[10vw] px-10 relative">
         <div class="profile fixed top-[15%] left-[50%] translate-x-[-50%] w-[20vw] h-[20vw] pointer-events-none rounded-full z-30 hidden"></div>
-        <h1 class="text-7xl font-['Pp_Neue_Machina_Plain_Light'] text-center mb-20">our team</h1>
-        <div class="content py-10 px-8 flex items-center n justify-between font-['Pp_Neue_Machina_Plain_Light'] border-t-[2px] border-[--black] relative group overflow-hidden hover:text-[--light] transition-all ease duration-300" data-image="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d3483259_Rick%20McCartney%20.png">
+        <h1 class="text-7xl text-center mb-20">our team</h1>
+        <div class="content py-10 px-8 flex items-center n justify-between border-t-[2px] border-[--black] relative group overflow-hidden hover:text-[--light] transition-all ease duration-300" data-image="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d3483259_Rick%20McCartney%20.png">
             <div class="cover absolute top-[-100%] left-0 w-full h-full bg-[#2544EE]  z-[-1] group-hover:top-0 transition-all ease duration-300"></div>
  <div class="inner flex gap-12 items-center">
     <h2 class="text-4xl opacity-50">01</h2>
@@ -342,7 +352,7 @@
  </div>
             <h3 class="text-2xl">CEO</h3>
         </div>
-        <div class="content py-10 px-8 flex items-center n justify-between font-['Pp_Neue_Machina_Plain_Light'] border-t-[2px] border-[--black] relative group overflow-hidden hover:text-[--light] transition-all ease duration-300" data-image="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65cd134a7ece047ea2260d5b_Caroline%20Nieto.png">
+        <div class="content py-10 px-8 flex items-center n justify-between border-t-[2px] border-[--black] relative group overflow-hidden hover:text-[--light] transition-all ease duration-300" data-image="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65cd134a7ece047ea2260d5b_Caroline%20Nieto.png">
             <div class="cover absolute top-[-100%] left-0 w-full h-full bg-[#2544EE]  z-[-1] group-hover:top-0 transition-all ease duration-300"></div>
  <div class="inner flex gap-12 items-center">
     <h2 class="text-4xl opacity-50">02</h2>
@@ -350,7 +360,7 @@
  </div>
             <h3 class="text-2xl">C0O</h3>
         </div>
-        <div class="content py-10 px-8 flex items-center n justify-between font-['Pp_Neue_Machina_Plain_Light'] border-t-[2px] border-[--black] relative group overflow-hidden hover:text-[--light] transition-all ease duration-300" data-image="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832e6_655d504bfd0e67e20640dbbd_ViCC81ctor20Albertos.png">
+        <div class="content py-10 px-8 flex items-center n justify-between border-t-[2px] border-[--black] relative group overflow-hidden hover:text-[--light] transition-all ease duration-300" data-image="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832e6_655d504bfd0e67e20640dbbd_ViCC81ctor20Albertos.png">
             <div class="cover absolute top-[-100%] left-0 w-full h-full bg-[#2544EE]  z-[-1] group-hover:top-0 transition-all ease duration-300"></div>
  <div class="inner flex gap-12 items-center">
     <h2 class="text-4xl opacity-50">03</h2>
@@ -358,7 +368,7 @@
  </div>
             <h3 class="text-2xl">Cheif Product Ofiicer</h3>
         </div>
-        <div class="content py-10 px-8 flex items-center n justify-between font-['Pp_Neue_Machina_Plain_Light'] border-t-[2px] border-[--black] relative group overflow-hidden hover:text-[--light] transition-all ease duration-300" data-image="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d348325a_655d4fbc461dbfc3c7e1914e_Dr.20Jana20Hapfelmeier.png">
+        <div class="content py-10 px-8 flex items-center n justify-between border-t-[2px] border-[--black] relative group overflow-hidden hover:text-[--light] transition-all ease duration-300" data-image="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d348325a_655d4fbc461dbfc3c7e1914e_Dr.20Jana20Hapfelmeier.png">
             <div class="cover absolute top-[-100%] left-0 w-full h-full bg-[#2544EE]  z-[-1] group-hover:top-0 transition-all ease duration-300"></div>
  <div class="inner flex gap-12 items-center">
     <h2 class="text-4xl opacity-50">04</h2>
@@ -366,7 +376,7 @@
  </div>
             <h3 class="text-2xl">CTO</h3>
         </div>
-        <div class="content py-10 px-8 flex items-center n justify-between font-['Pp_Neue_Machina_Plain_Light'] border-t-[2px] border-[--black] relative group overflow-hidden hover:text-[--light] transition-all ease duration-300" data-image="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832da_655d501d4436fe51b356605d_Michael20Robin.png">
+        <div class="content py-10 px-8 flex items-center n justify-between border-t-[2px] border-[--black] relative group overflow-hidden hover:text-[--light] transition-all ease duration-300" data-image="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832da_655d501d4436fe51b356605d_Michael20Robin.png">
             <div class="cover absolute top-[-100%] left-0 w-full h-full bg-[#2544EE]  z-[-1] group-hover:top-0 transition-all ease duration-300"></div>
  <div class="inner flex gap-12 items-center">
     <h2 class="text-4xl opacity-50">05</h2>
@@ -374,7 +384,7 @@
  </div>
             <h3 class="text-2xl">Cheif Innovation Officer</h3>
         </div>
-        <div class="content py-10 px-8 flex items-center n justify-between font-['Pp_Neue_Machina_Plain_Light'] border-t-[2px] border-[--black] relative group overflow-hidden hover:text-[--light] transition-all ease duration-300" data-image="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d348325c_655d50b27e70d440e4404528_AdriaCC81n20Rubio.png">
+        <div class="content py-10 px-8 flex items-center n justify-between border-t-[2px] border-[--black] relative group overflow-hidden hover:text-[--light] transition-all ease duration-300" data-image="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d348325c_655d50b27e70d440e4404528_AdriaCC81n20Rubio.png">
             <div class="cover absolute top-[-100%] left-0 w-full h-full bg-[#2544EE]  z-[-1] group-hover:top-0 transition-all ease duration-300"></div>
  <div class="inner flex gap-12 items-center">
     <h2 class="text-4xl opacity-50">06</h2>
@@ -382,7 +392,7 @@
  </div>
             <h3 class="text-2xl">VP of Marketing</h3>
         </div>
-        <div class="content py-10 px-8 flex items-center n justify-between font-['Pp_Neue_Machina_Plain_Light'] border-t-[2px] border-[--black] relative group overflow-hidden hover:text-[--light] transition-all ease duration-300" data-image="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832c7_655d4fcd461dbfc3c7e19739_Cy20Serrano.png">
+        <div class="content py-10 px-8 flex items-center n justify-between border-t-[2px] border-[--black] relative group overflow-hidden hover:text-[--light] transition-all ease duration-300" data-image="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832c7_655d4fcd461dbfc3c7e19739_Cy20Serrano.png">
             <div class="cover absolute top-[-100%] left-0 w-full h-full bg-[#2544EE]  z-[-1] group-hover:top-0 transition-all ease duration-300"></div>
  <div class="inner flex gap-12 items-center">
     <h2 class="text-4xl opacity-50">07</h2>
@@ -390,7 +400,7 @@
  </div>
             <h3 class="text-2xl">VP of Engineering</h3>
         </div>
-        <div class="content py-10 px-8 flex items-center n justify-between font-['Pp_Neue_Machina_Plain_Light'] border-t-[2px] border-[--black] relative group overflow-hidden hover:text-[--light] transition-all ease duration-300" data-image="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65e0bbf51f50ea7c26f413f5_Lenya%20McGrath.png">
+        <div class="content py-10 px-8 flex items-center n justify-between border-t-[2px] border-[--black] relative group overflow-hidden hover:text-[--light] transition-all ease duration-300" data-image="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65e0bbf51f50ea7c26f413f5_Lenya%20McGrath.png">
             <div class="cover absolute top-[-100%] left-0 w-full h-full bg-[#2544EE]  z-[-1] group-hover:top-0 transition-all ease duration-300"></div>
  <div class="inner flex gap-12 items-center">
     <h2 class="text-4xl opacity-50">08</h2>
@@ -398,7 +408,7 @@
  </div>
             <h3 class="text-2xl">VP of Product</h3>
         </div>
-        <div class="content py-10 px-8 flex items-center n justify-between font-['Pp_Neue_Machina_Plain_Light'] border-t-[2px] border-[--black] relative group overflow-hidden hover:text-[--light] transition-all ease duration-300" data-image="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832ae_655d505c9d551c9c11dd3613_Chris20Koha.png">
+        <div class="content py-10 px-8 flex items-center n justify-between border-t-[2px] border-[--black] relative group overflow-hidden hover:text-[--light] transition-all ease duration-300" data-image="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832ae_655d505c9d551c9c11dd3613_Chris20Koha.png">
             <div class="cover absolute top-[-100%] left-0 w-full h-full bg-[#2544EE]  z-[-1] group-hover:top-0 transition-all ease duration-300"></div>
  <div class="inner flex gap-12 items-center">
     <h2 class="text-4xl opacity-50">09</h2>
@@ -411,58 +421,83 @@
             <i class="ri-arrow-right-up-line text-xl"></i>
         </div>
     </div>
-    <div data-color="light" class="page-5 section w-full py-[30vw] px-10">
-        <div class="info w-[34vw] flex flex-col items-center gap-10 ml-24">
-            <p class="text-2xl font-['Satoshi_Variable'] font-medium text-[#D0D0D3] text-center leading-normal ">Working with the Significo team has been such a pleasure! We took on a significant project to rebuild our entire platform and the team approached the project with our best interests in mind. They continue to prioritize the end user experience and offer amazing expertise in all of the areas we lack internally. I would personally be lost without this team, their ability to problem solve, their openness to feedback and desire to build the product like it is their own.</p>
-            <div class="inner-info flex flex-col items-center">
-                <img class="w-[6vw] h-[6vw] rounded-full"  src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832e5_MirandaErnst.jpeg" alt="">
-                <h1 class="text-2xl font-medium mt-8">Miranda Ernst</h1>
-                <h3 class="text-lg font-semilight text-[#7F7F7F]  mt-2">Product Manager @ HealthCheck360</h3>
-            </div>
+   
+
+    <div data-color="light" class="para w-full  relative ">
+        <div class="left-para w-[50%] py-10 px-[7rem] text-center">
+            <p class="text-[1.6rem] font-[sans-serif] text-center">Working with the Significo team has been such
+                a pleasure! We took on a significant project to
+                rebuild our entire platform and the team
+                approached the project with our best interests
+                in mind. They continue to prioritize the end
+                user experience and offer amazing expertise in
+                all of the areas we lack internally. I would
+                personally be lost without this team, their
+                ability to problem solve, their openness to
+                feedback and desire to build the product like it
+                is their own.</p>
+                <div class ="imges w-[6rem] h-[6rem] rounded-full bg-red-200 ml-[14rem] mt-10 mb-7 overflow-hidden">
+                    <img class="overflow-hidden h-full w-full" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832e5_MirandaErnst.jpeg" alt="">
+                </div>
+                <h1 class="text-2xl font-semibold">Miranda Ernst</h1>
+                <h3 class="opacity-[.5] text-xl">Product Manager @ HealthCheck360</h3>
         </div>
-        <div class="info w-[34vw] flex flex-col items-center gap-10 ml-[55%]">
-            <p class="text-2xl font-['Satoshi_Variable'] font-medium text-[#D0D0D3] text-center leading-normal ">Working with Significo and their recommendation service has been a game-changer for our occupational prevention efforts. Our customers are extremely satisfied with the tool's impressive technical capabilities and data-driven approach. But what truly sets it apart is the intuitive and modern user experience it offers, making it a breeze for our clients to navigate. By leveraging this service, our customers have successfully tackled presenteeism and absenteeism, making a significant impact on their workforce's well-being. We highly recommend Significo to any organization looking to optimize their occupational health and drive positive change.</p>
-            <div class="inner-info flex flex-col items-center">
-                <img class="w-[6vw] h-[6vw] rounded-full"  src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d3483253_EmekAltun.jpg" alt="">
-                <h1 class="text-2xl font-medium mt-8">Emek Altun</h1>
-                <h3 class="text-lg font-semilight text-[#7F7F7F]  mt-2">CEO @ Vitaservices</h3>
-            </div>
+        <div class="right-para  w-[45%] py-10 px-[5rem] text-center  ml-[45rem]">
+            <p class="text-[1.6rem] font-[sans-serif] text-center">Working with Significo and their
+                recommendation service has been a
+                game-changer for our occupational
+                prevention efforts. Our customers are
+                extremely satisfied with the tool's impressive
+                technical capabilities and data-driven
+                approach. But what truly sets it apart is the
+                intuitive and modern user experience it offers,
+                making it a breeze for our clients to navigate.
+                By leveraging this service, our customers have
+                successfully tackled presenteeism and
+                absenteeism, making a significant impact on
+                their workforce's well-being. We highly
+                recommend Significo to any organization
+                looking to optimize their occupational health
+                and drive positive change.</p>
+                <div class ="imges w-[6rem] h-[6rem] rounded-full bg-red-200 ml-[13.2rem] mt-10 mb-7 overflow-hidden">
+                    <img class="overflow-hidden h-full w-full" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d3483253_EmekAltun.jpg" alt="">
+                </div>
+                <h1 class="text-2xl font-semibold">Emek Altun</h1>
+                <h3 class="opacity-[.5] text-xl">CEO @ Vitaservices </h3>
+        </div>
+
+    </div>
+    <div data-color="light" class="article w-full py-10 px-10 flex items-center justify-between">
+        <div class="left-article">
+            <p class="text-2xl w-[12em]">Stay up-to-date on the
+                latest healthcare 
+                innovations and thought
+                leadership.</p>
+                <div class="mt-[27rem] ">
+                    <h1 class="text-6xl mb-3">Explore <br>
+                        Our Insights</h1>
+                        <button class="font-semibold bg-yellow-200 text-1xl border-[1px] border-black py-3 px-7">VIEW ALL ARTICLES ↗</button>
+                </div>
+                
+        </div>
+        <div class="right-article  w-[60%] flex items-center justify-around">
+<div class="article-items capsule1 translate-y-20 py-10 px-10 w-[23rem] h-[47rem] border-[1px] border-black border rounded-[12rem] mt-[16rem] -rotate-[20deg]">
+<img class="rounded-full w-[17rem] h-[17rem] " src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65e61826ab9558e05e681a7f_Untitled%20design.png" alt="">
+<h2 class="text-[1.5rem] font-bold text-center py-[4rem]">Equity in Tech: An International Women’s Day Conversation with Caroline Nieto, Significo’s CPO </h2>
+<button class="py-2 px-5 bg-purple-300 rounded-[2rem] font-semibold ml-[3rem]">Thought Leadership</button>
+</div>
+<div class="article-items capsule2 w-[23rem] h-[47rem]  py-10 px-10 border-[1px] border-black border rounded-[12rem] translate-y-32 -rotate-[20deg]">
+    <button class="py-2 px-5 bg-purple-300 rounded-[2rem] font-semibold ml-[3rem]">Thought Leadership</button>
+    <h2 class="text-[1.5rem] font-bold text-center py-12">Equity in Tech: An International Women’s Day Conversation with Caroline Nieto, Significo’s CPO </h2>
+    <p class="text-center py-5 px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis cumque unde, aliquam consequuntur porro ut excepturi eos numquam beatae fuga?</p>
+    <img class="rounded-full w-[12rem] h-[12rem] mt-2 ml-10" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65affe89f470b736a1da1ba2_How%20to%20Use%20Digital%20Health%20Interventions.jpg" alt="">
+</div>
         </div>
     </div>
-    <div data-color="light" class="page-6 section w-full py-[8vw] px-10 relative">
-        <p class="text-lg w-56 font-medium absolute">Stay up-to-date on the latest healthcare innovations and thought leadership.</p>
-        <div class="explore w-full flex items-end gap-12">
-<div class="explore-part1">
-    <h1 class="text-7xl font-['Pp_Neue_Machina_Plain_Light'] leading-tight">Explore</h1>
-    <h1 class="text-7xl font-['Pp_Neue_Machina_Plain_Light']">Our Insights</h1>
-    <div class="btn w-fit px-8 py-4 flex items-center gap-5 border-[1px] border-[--dcyan] bg-[#F5F19C] mt-6">
-        <h2 class="text-base uppercase font-semibold">view all articles</h2>
-        <i class="ri-arrow-right-up-line text-xl"></i>
-    </div>
-</div>
-<div class="explore-part2 w-[25vw] border-[1px] border-[--black] py-8 px-8 flex flex-col items-center rounded-full pb-24 rotate-[-15deg]">
-<img class="w-[20vw] h-[20vw] object-cover rounded-full" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65e61826ab9558e05e681a7f_Untitled%20design.png" alt="">
-<p class="text-2xl font-semibold font-['Pp_Neue_Machina_Plain_Light'] text-center mt-14 leading-normal tracking-wide" >Equity in Tech: An International Women’s Day Conversation with Caroline Nieto, Significo’s CPO </p>
-<div class="btn w-fit px-3 py-2 flex items-center gap-5 bg-[#E9BBFF] rounded-full font-['Pp_Neue_Machina_Plain_Light'] tracking-widest mt-16">
-    <h2 class="text-base font-semibold">Thought Leadership</h2>
-</div>
-</div>
-<div class="explore-part3 w-[25vw] border-[1px] border-[--black] py-8 px-8 flex flex-col items-center rounded-full translate-y-[10%] rotate-[-15deg]">
-    <div class="btn w-fit px-3 py-2 flex items-center gap-5 bg-[#E9BBFF] rounded-full font-['Pp_Neue_Machina_Plain_Light'] tracking-widest mt-6">
-        <h2 class="text-base font-semibold">Thought Leadership</h2>
-    </div>
-<p class="text-2xl font-semibold font-['Pp_Neue_Machina_Plain_Light'] text-center mt-14 leading-normal tracking-wide" > How to Use Digital Health Interventions to Align Employee & Organizational Goals
-     </p>
-<p class="text-[.9vw] font-medium text-center mt-4 leading-tight tracking-wide text-[#5F5F5F]" > How to use personalized digital health interventions to empower employees while achieving your organization’s goals.</p>
-<img class="w-[20vw] h-[20vw] object-cover rounded-full mt-16" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65affe89f470b736a1da1ba2_How%20to%20Use%20Digital%20Health%20Interventions.jpg" alt="">
-</div>
-        </div>
-    </div>
-    <div data-color="light" class="page-7 section w-full min-h-screen">
-        <div class="page-8-top w-full  bg-[#F5F19C] py-14 px-12 flex justify-between items-center">
+    <div data-color="light" class="page-7 section w-full ">
+        <div class="page-8-top w-full  bg-[#F5F19C] py-14 px-12 flex justify-between items-start">
             <div class="part1">
-                <h2 class="text-7xl font-['Pp_Neue_Machina_Plain_Light'] leading-normal">Discover</h2>
-                <h2 class="text-7xl font-['Pp_Neue_Machina_Plain_Light']">Significo.</h2>
+                <h2 class="text-7xl leading-normal">Let's build a better future.</h2>
                 <div class="btn w-fit px-6 py-4 flex items-center gap-5 border-[1px] border-[--dcyan] bg-[--black] mt-10">
                     <h2 class="text-base uppercase font-semibold text-[#F5F19C]">let's go</h2>
                     <i class="ri-arrow-right-up-line text-xl text-[#F5F19C]"></i>
@@ -483,7 +518,7 @@
             </div>
         </div>
         <div class="mid w-full flex items-center justify-between bg-[--black] text-[--light] px-10 py-14">
-            <div class="part1 text-xl capitalize font-semibold font-['Pp_Neue_Machina_Plain_Light'] leading-loose tracking-wider">
+            <div class="part1 text-xl capitalize font-semibold leading-loose tracking-wider">
                 <h2>home</h2>
                 <h2>solution</h2>
                 <h2>about</h2>
@@ -491,7 +526,7 @@
                 <h2>contact</h2>
             </div>
             <div class="part2">
-                <h2 class=" text-2xl capitalize font-semibold font-['Pp_Neue_Machina_Plain_Light'] leading-normal tracking-wider">Join our mailing list  for <br>
+                <h2 class=" text-2xl capitalize font-semibold leading-normal tracking-wider">Join our mailing list  for <br>
                     the latest updates.</h2>
                     <div class="inner-part flex items-center justify-center gap-5 mt-10">
                         <input class="outline-1 py-3 px-5 text-[--black] w-[23vw] outline-[#5D91BE] text-lg" type="text" placeholder="Enter your email address...">
@@ -501,7 +536,7 @@
                         </div>
                     </div>
             </div>
-            <div class="part3 text-xl capitalize font-semibold font-['Pp_Neue_Machina_Plain_Light'] leading-loose text-end tracking-wider">
+            <div class="part3 text-xl capitalize font-semibold leading-loose text-end tracking-wider">
                 <h2>insights</h2>
                 <h2>newsroom</h2>
                 <h2>resources</h2>
@@ -510,7 +545,7 @@
             </div>
         </div>
         <div class="footer w-full px-10 bg-[--black] text-[--light]">
-        <h1 class="text-[19vw] tracking-wide font-['Pp_Neue_Machina_Plain_Light'] font-bold leading-tight">Significo</h1>
+        <h1 class="text-[19vw] tracking-wide font-bold leading-tight">Significo</h1>
         <div class="last w-full sticky bottom-0 left-0 bg-[--black]">
             <div class="row w-full h-[1px] bg-[--light]"></div>
             <div class="inner-last w-full flex items-center justify-between py-10">
